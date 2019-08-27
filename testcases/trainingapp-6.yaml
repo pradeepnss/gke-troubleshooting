@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: trainingapp-6
+spec:
+  template:
+    metadata:
+      labels:
+        app: trainingapp-6
+    spec:
+      containers:
+        - name: test-container
+          image: nginx
+          resources:
+            requests:
+              cpu: 1
