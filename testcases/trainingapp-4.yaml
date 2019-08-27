@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: trainingapp-4
+spec:
+  template:
+    metadata:
+      labels:
+        name: trainingapp-4
+    spec:
+      containers:
+        - name: test-container
+          image: nginx
+          resources:
+            requests:
+              memory: 5Gi
