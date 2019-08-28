@@ -4,7 +4,8 @@
 
 Create GKE cluster using below gcloud command:
 
-```gcloud beta container clusters create test-cluster-1 \
+```shell 
+ gcloud beta container clusters create test-cluster-1 \
  --cluster-version=1.12.8-gke.10 \
  --zone=us-central1-a \
  --node-version=1.12.8-gke.10 \
@@ -17,7 +18,8 @@ Create GKE cluster using below gcloud command:
  --enable-autoupgrade \
  --enable-autoscaling \
  --max-nodes=3 \
- --min-nodes=0 ```
+ --min-nodes=0 
+```
  
  ### Test 1
  Deploy testapp-1 on test-cluster-1 
@@ -32,7 +34,8 @@ Create GKE cluster using below gcloud command:
  
  Create GKE cluster using below gcloud command:
  
- ``` gcloud beta container clusters create test-cluster-2 \
+```shell
+gcloud beta container clusters create test-cluster-2 \
  --cluster-version=1.12.8-gke.10 \
  --zone=us-west2-a \
  --node-version=1.12.8-gke.10 \
@@ -45,7 +48,8 @@ Create GKE cluster using below gcloud command:
  --enable-autoupgrade \
  --enable-autoscaling \
  --max-nodes=50 \
- --min-nodes=0 ```
+ --min-nodes=0
+ ```
  
  ### Test 4
  Deploy testapp-4 on test-cluster-2
