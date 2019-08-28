@@ -19,8 +19,8 @@ spec:
         image: nginx:1.7.9
         ports:
         - containerPort: 80
-            resources:
-        requests:
-          CPU: "0.5"
-        limits:
-          CPU: "1"
+        resources:
+          requests:
+            CPU: "0.5"
+          limits:
+            CPU: "1"
