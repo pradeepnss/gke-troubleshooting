@@ -23,13 +23,21 @@ Create GKE cluster using below gcloud command:
  
  ### Test 1
  Deploy testapp-1 on test-cluster-1 
+ ```
+ kubectl create -f testapp-1.yaml
+ ```
  
  ### Test 2
  Deploy testapp-2 on test-cluster-1
+ ```
+ kubectl create -f testapp-2.yaml
+ ``` 
  
  ### Test 3
  Deploy testapp-3 on test-cluster-1
- 
+ ```
+ kubectl create -f testapp-3.yaml
+ ``` 
  ## Test Cluster 2
  
  Create GKE cluster using below gcloud command:
@@ -53,3 +61,6 @@ gcloud beta container clusters create test-cluster-2 \
  
  ### Test 4
  Deploy testapp-4 on test-cluster-2
+ ```
+ kubectl create -f testapp-4.yaml
+ ```
