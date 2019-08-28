@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: with-node-affinity
+  name: testapp-2
 spec:
   affinity:
     nodeAffinity:
