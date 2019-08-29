@@ -40,5 +40,5 @@ curl -ik \
      https://kubernetes.default.svc.cluster.local/api/v1/namespaces/default/pods
 ```
 
-Now how do you fix this so that from this pod we can perform list of pods in default namespace.
+Now how do you fix this so that from this pod we can perform list of pods in default namespace ?
 
