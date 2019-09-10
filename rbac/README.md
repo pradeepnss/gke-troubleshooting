@@ -6,7 +6,7 @@
 
 ```sh
 kubectl create serviceaccount test --namespace=default
-a-kubectl run nginx-1 \
+kubectl run nginx-1 \
     --image=nginx:latest \
     --namespace=default \
     --overrides='{
